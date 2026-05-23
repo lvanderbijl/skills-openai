@@ -39,6 +39,16 @@ npx skills@latest add mattpocock/skills
 
 4. Bam - you're ready to go.
 
+## Multi-agent compatibility
+
+This repository is set up for use with multiple coding agents:
+
+- **OpenCode CLI**: reads [`AGENTS.md`](./AGENTS.md)
+- **Claude Code**: reads [`CLAUDE.md`](./CLAUDE.md)
+- **GitHub Copilot CLI / agents**: reads [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) and can also use [`AGENTS.md`](./AGENTS.md)
+- **Gemini CLI**: reads [`GEMINI.md`](./GEMINI.md)
+- **Codex CLI**: reads [`AGENTS.md`](./AGENTS.md)
+
 ## Why These Skills Exist
 
 I built these skills as a way to fix common failure modes I see with Claude Code, Codex, and other coding agents.
